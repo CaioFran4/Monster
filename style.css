@@ -9,7 +9,7 @@ body{
     width: 100vw;
     height: 100vh;
     flex-direction: column;
-    background-color: black;
+    background-color: #090909;
 }
 
 header{
@@ -17,7 +17,6 @@ header{
     width: 100%;
     height: 10%;
     font-size: 10px;
-    background-color: black;
     align-items: center;
     justify-content: center;
     
@@ -35,8 +34,8 @@ header{
 }
 .logo_image{
     display: flex;
-    height: 45px;
-    width: 110px;
+    height: 60px;
+    width: 125px;
 }
 
 .globobox{
@@ -47,17 +46,21 @@ header{
 
 main{
     display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     flex-grow: 1;
-    background-color:black;
     flex-direction: column;
     align-items: start;
     justify-content: center;
 }
 .container2{
     display: flex;
-    flex-direction: column;
-    width: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 525px;
+    flex-direction: row;
+    width: 100%;
     height: 200px;
     font-family:"Teko", sans-serif;
     font-style: bold;
@@ -68,24 +71,67 @@ main{
 .context{
     display: flex;
     flex-direction: column;
-    width: 300px;
-    height: 200px;
-    font-size: 37px;
+    align-items: start;
+    width: 200px;
+    height: 300px;
+    font-size: 42px;
     font-weight: weight;
     margin-left: 40px;
     color: white;
     line-height: 1.0;
 }
-.context2{
+.box1{
     display: flex;
     flex-direction: row;
     font-family:"Teko", sans-serif;
     font-style: bold;
     font-size: 25px;
     height: 20%;
-    width: 100%;
+    width:100%;
     color:#CCCCCC;
 
+}
+
+.box2{
+    display: flex;
+    margin: 10px;
+    width: 200px;
+    height: 425px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.box3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    line-height: 1.25;
+    margin-right: 30px;
+    
+}
+.image{
+    display: flex;
+    
+
+}
+
+.monster{
+    display: flex;
+    height: 425px;
+    z-index: 1;
+    
+}
+.background{
+    display: flex;
+    position: absolute;
+    z-index: -1;
+    width: 600px;
 }
 
 .energy{
@@ -93,10 +139,17 @@ main{
     color: #6BD41A;
 }
 
+
+
+
+
 footer{
     display: flex;
     width: 100%;
     height: 15%;
-    background-color: black;
+    
 }
+
+
+
 
