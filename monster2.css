@@ -1,0 +1,222 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    background:linear-gradient(red,lightcoral,red);
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    font-size: 10px;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.container{
+    display: flex;
+    width: 90%;
+    height: 35%;
+    align-items: center;
+    justify-content: space-between;
+    color:white;
+    text-shadow: black -1px -1px, black 1px 1px, black 2px 2px, black -2px -1px;
+    font-family: "Teko", sans-serif;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+.logo_image{
+    display: flex;
+    height: 90px;
+    width: 175px;
+}
+
+.globobox{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    justify-content: center;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 525px;
+    flex-direction: row;
+    width: 100%;
+    height: 200px;
+    font-family:"Teko", sans-serif;
+    font-style: bold;
+    
+    
+
+}
+.context{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 275px;
+    height: 300px;
+    font-size: 50px;
+    font-weight: weight;
+    font-family:"Teko", sans-serif;
+    margin-left: 50px;
+    color: black;
+    line-height: 1.0;
+    margin-bottom: 30px;
+}
+.energy{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    text-shadow:white 1px -1px 2px, black -1px 1px 2px, grey 1px 1px 2px,white -1px -1px 2px;
+    text-align: start;
+    width: 100px;
+    color:black;
+    
+}
+.monster_text{
+    display: flex;
+    color:black;
+    text-shadow:white 1px -1px 2px, black -1px 1px 2px, grey 1px 1px 2px,white -1px -1px 2px;
+}
+
+.Energy{
+    display: flex;
+    color:#C4C4C4;
+    text-shadow:black 1px 1px, black -1px -1px, red 2px 2px, red -2px -2px;
+}
+.box1{
+    display: flex;
+    flex-direction: row;
+    text-align: flex-start;
+    font-family:"Teko", sans-serif;
+    font-style: bold;
+    font-size: 24.5px;
+    height: 20%;
+    margin-top: 15px;
+    margin-left: 5px;
+    width:130%;
+    color:#C4C4C4;
+    text-shadow: black 1px 1px, black -1px -1px;
+
+}
+
+.box2{
+    display: flex;
+    margin-right: 60px;
+    width: 725px;
+    height: 425px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.box3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #C4C4C4;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 1.25;
+    text-shadow: black 1px 1px, black -1px -1px, black -2px -2px, grey -1px -2px;
+    font-size: 17.5px;
+    gap: 18px;
+    
+}
+.image{
+    display: flex;
+    height: 185px;
+    width: 90px;
+    
+
+}
+
+.monster{
+    display: flex;
+    height: 520px;
+    z-index: 1;
+    
+}
+.background{
+    display: flex;
+    position: absolute;
+    z-index: -1;
+    width: 700px;
+    transform: rotate(-20deg);
+    right: 36%;
+}
+
+
+
+
+
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    margin-bottom: 20px;
+    gap: 30px;
+    width: 100%;
+    height: 15%;
+    
+}
+.made{
+    display: flex;
+    font-family:"Teko", sans-serif;
+    text-shadow: grey 1px 1px , white -1px -1px;
+}
+.container3{
+    display: flex;
+    color: white;
+    
+    width: 100%;
+    height: 60%;
+    align-items: center;
+    justify-content: center;
+    gap: 45%;
+    font-size: 35px;
+}
+
+.aba1{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 55px;
+
+}
+.aba2{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 55px;
+}
+
+
+
